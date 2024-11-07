@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    display: flex;
+    flex: 1;
+}
+button{
+    font-size: 4em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #f4f4f4;
+}
+.number{
+    display: flex;
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: rgb(142, 219, 142);
+}
+.operator{
+    display: flex;
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: rgb(12, 68, 12);
+    
+}
+.equals{
+    display: flex;
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: rgb(69, 150, 69);
+}
+.display{
+    display: flex;
+    flex: 1;
+    background-color: beige;
+}
