@@ -35,5 +35,17 @@ button{
 .display{
     display: flex;
     flex: 1;
-    background-color: beige;
+    background-color: #333;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 4em;
+    color: #f4f4f4;
+    margin: 0px;
+    padding-right: 20px;
+}
+.clear{
+    display: flex;
+    flex: 1;
+    background-color: rgb(35, 64, 35);
 }
